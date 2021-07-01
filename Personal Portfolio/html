@@ -1,0 +1,194 @@
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+
+<nav class="navbar navbar-inverse navbar-fixed-top top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#"><img src="http://res.cloudinary.com/zayneb/image/upload/v1500649141/log2_quvulh.gif"></a>
+    </div>
+    <ul class="nav navbar-nav">
+     <li class="active"><a href="#about">About</a></li>
+     <li><a href="#projects">PORTFOLIO</a></li>
+     <li><a href="#contact"> Contact</a></li>
+    </ul>
+  </div>
+</nav>
+<br /><br /><br /><br /><br />
+<div class="container">
+    <div class="jumbotron">
+    <div class="row">
+      <div class="col-xs-12 P1" id="about">
+        <div class="col-xs-8">
+         <br /><br /><br /><br /><br /><br />
+      <p>Front-End Developer and UX/UI designer, with practical experience in project management, branding strategy, and creative direction; devoted to functional programming and information architecture.</p>
+         <br /><br />
+  <div class=" dropdown-toggle">
+</div>
+      <br /><br />
+<p>Web Developer - User Experience Designer - Graphic Artist</p>
+<br /><br />
+      </div>
+        <div class="col-xs-4">
+          <br /><br /><br /><br /><br />
+       <img class="img-circle" src="http://res.cloudinary.com/zayneb/image/upload/v1500653183/me_dgqd0c.jpg" alt="me" width="296" height="232" >
+      </div>
+      </div>
+      <div class="col-xs-12 text-center P2" id="portfolio">
+        <br /><br /><br />
+ <!-- START PROJECTS SECTION -->
+
+<section id="projects" class="projects-section">
+  <h2 class="projects-section-header">These are some of my projects</h2>
+
+  <div class="projects-grid">
+    <a
+      href="https://codepen.io/freeCodeCamp/full/zNqgVx"
+      target="_blank"
+      class="project project-tile"
+    >
+      <img
+        class="project-image"
+        src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg"
+        alt="project"
+      />
+      <p class="project-title">
+        <span class="code">&lt;</span>
+        Tribute Page
+        <span class="code">&#47;&gt;</span>
+      </p>
+    </a>
+    <a
+      href="https://codepen.io/Zed1316/pen/EvPEaj"
+      target="_blank"
+      class="project project-tile"
+    >
+      <img
+        class="project-image"
+        src="https://codepen.io/Zed1316/pen/EvPEaj/image/small.png"
+        alt="project"
+      />
+      <p class="project-title">
+        <span class="code">&lt;</span>
+        Random Quote Machine
+        <span class="code">&#47;&gt;</span>
+      </p>
+    </a>
+    <a
+      href="https://codepen.io/Zed1316/pen/prWLKX"
+      target="_blank"
+      class="project project-tile"
+    >
+      <img
+        class="project-image"
+        src="https://codepen.io/Zed1316/pen/prWLKX/image/small.png"
+        alt="project"
+      />
+      <p class="project-title">
+        <span class="code">&lt;</span>
+        JavaScript Calculator
+        <span class="code">&#47;&gt;</span>
+      </p>
+    </a>
+
+    <a href="https://codepen.io/Zed1316/pen/qXaBjE"
+      target="_blank"
+      class="project project-tile"
+    >
+      <img
+        class="project-image"
+        src="https://codepen.io/Zed1316/pen/qXaBjE/image/small.png"
+        alt="project"
+      />
+      <p class="project-title">
+        <span class="code">&lt;</span>
+        Wikipedia Viewer
+        <span class="code">&#47;&gt;</span>
+      </p>
+    </a>
+    <a
+      href="https://codepen.io/Zed1316/pen/JyMRNW"
+      target="_blank"
+      class="project project-tile"
+    >
+      <img
+        class="project-image"
+        src="https://codepen.io/Zed1316/pen/JyMRNW/image/small.png"
+        alt="project"
+      />
+      <p class="project-title">
+        <span class="code">&lt;</span>
+        Tic Tac Toe Game
+        <span class="code">&#47;&gt;</span>
+      </p>
+    </a>
+  </div>
+
+  <a href="https://codepen.io/Zed1316"
+    class="btn btn-show-all"
+    target="_blank"
+    >Show all</a>
+</section>
+
+<!-- END PROJECTS SECTION -->
+
+      <div class="col-xs-12 text-center  P3" id="contact">
+        <br /><br />
+      <h2>Contact</h2>
+        <br />
+        <div class="dropdown-toggle">
+</div><br /><br />
+       <div class="col-xs-6 P61">  
+         <br /><br /><br />
+         <form>
+  <div class="input-group">
+    <span class="input-group-addon"><i class="glyphicon glyphicon-user" style="font-size:30px;"></i></span>
+    <input id="email" type="text" class="form-control" name="email" placeholder="Email">
+  </div><br />
+  <div class="input-group">
+    <span class="input-group-addon"><i class="glyphicon glyphicon-lock" style="font-size:30px;"></i></span>
+    <input id="password" type="password" class="form-control" name="password" placeholder="Password">
+  </div><br />
+  <div class="input-group">
+    <span class="input-group-addon"><i class="fa fa-phone" style="font-size:30px;"></i></span>
+    <input id="tel" type="tel" class="form-control" name="tel" placeholder="Phone Number" pattern="0[1-9][1-9]-\d\d-\d\d-\d\d">
+  </div><br />
+ <div class="checkbox">
+    <label><input type="checkbox"> Remember me</label> </div><br />
+  <button type="submit" class="btn btn-warning btn-md" id="submit">Submit</button>
+</form><br /><br />
+       </div><br /><br />
+        
+      <div class="col-xs-6 text-center P62" >
+      <p> Want to get in touch with me? Be it to request more info about myself or my experience, to ask for my resume, tips on how to solve your sudoku, random questions about the universe and the meaning of life, or even if only for some nice Fika here in stunning Toronto... just feel free to drop me a line anytime.</p><br />
+<p>I promise to reply A.S.A.P.</p>
+        </div>
+        <br /><br />
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<nav class="navbar navbar-inverse navbar-bottom">
+  <div class="col-xs-12 first">
+    <div class="row">
+    <div class="col-xs-6 fi">
+    <h3>ABOUT THIS PAGE</h3>
+
+      <p>made with <i class="fa fa-heart"></i> by<a href="https://codepen.io/Zed1316/"> zAYneb</a>.</p>
+      
+    </div>
+      
+    <div class="col-xs-6 li">
+     <h3>AROUND THE WEB</h3>
+      <a href="https://linkedin.com"><i class="fa fa-linkedin" style="font-size:36px;"></i></a>
+      <a href="https://github.com/"><i class="fa fa-github" style="font-size:36px;"></i></a>
+      <a href="https://twitter.com"><i class="fa fa-twitter" style="font-size:36px;"></i></a>
+      <a href="https://facebook.com"><i class="fa fa-facebook" style="font-size:36px;"></i></a>
+    </div>
+  </div>
+ </div>
+<div class="col-xs-12 last">
+ <footer class="text-center">
+   <p>DESIGN <i class="fa fa-copyright"></i>      2017.All Rights Reversed </p>
+  </footer>
+ </div>
+</nav>
